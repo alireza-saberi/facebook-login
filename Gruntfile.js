@@ -2,7 +2,7 @@
 * @Author: Ali
 * @Date:   2016-10-21 22:07:55
 * @Last Modified by:   Ali
-* @Last Modified time: 2016-10-21 23:47:25
+* @Last Modified time: 2016-10-22 00:37:57
 */
 
 module.exports = function(grunt) {
@@ -20,7 +20,7 @@ module.exports = function(grunt) {
 
         concat: {
             js: {
-                src: ['app/js/*.js'],
+                src: ['app/js/*.js', 'node_modules/jquery/src/jquery.js','node_modules/bootstrap/dist/js/bootstrap.min.js','node_modules/angular/angular.min.js'],
                 dest: 'dist/js/script.min.js'
             },
             css: {
@@ -60,9 +60,10 @@ module.exports = function(grunt) {
         /*TODO: images need to get optimzed for web application later*/
         copy: {
             main: {
-                files: {
-                    'app/img/*.*': 'dist/img/*.*'
-                }
+                cwd: 'app/img',
+                expand: true,
+                src:'*',
+                dest:'dist/img'
             }
         },
 
