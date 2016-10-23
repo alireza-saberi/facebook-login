@@ -2,7 +2,7 @@
 * @Author: Ali
 * @Date:   2016-10-21 22:07:55
 * @Last Modified by:   Ali
-* @Last Modified time: 2016-10-22 00:37:57
+* @Last Modified time: 2016-10-23 09:31:41
 */
 
 module.exports = function(grunt) {
@@ -68,6 +68,12 @@ module.exports = function(grunt) {
         },
 
         watch: {
+            options:{
+                livereload:{
+                    host: 'localhost',
+                    port: 3000
+                }
+            },
             html: {
                 files: ['app/index.html'],
                 tasks: ['processhtml']
