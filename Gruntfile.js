@@ -1,8 +1,8 @@
 /*
 * @Author: Ali
 * @Date:   2016-10-21 22:07:55
-* @Last Modified by:   Ali
-* @Last Modified time: 2016-10-23 09:31:41
+* @Last Modified by:   alireza-saberi
+* @Last Modified time: 2016-10-24 08:13:58
 */
 
 module.exports = function(grunt) {
@@ -20,11 +20,11 @@ module.exports = function(grunt) {
 
         concat: {
             js: {
-                src: ['app/js/*.js', 'node_modules/jquery/src/jquery.js','node_modules/bootstrap/dist/js/bootstrap.min.js','node_modules/angular/angular.min.js'],
+                src: ['app/js/*.js', 'node_modules/jquery/dist/jquery.js','node_modules/bootstrap/dist/js/bootstrap.js','node_modules/angular/angular.js', 'node_modules/angular-route/angular-route.js'],
                 dest: 'dist/js/script.min.js'
             },
             css: {
-                src: ['app/css/*.css'],
+                src: ['app/css/*.css', 'node_modules/bootstrap/dist/css/bootstrap.css'],
                 dest: 'dist/css/style.min.css'
             }
         },

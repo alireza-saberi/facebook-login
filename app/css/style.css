@@ -1,6 +1,18 @@
 /*
 * @Author: Ali
 * @Date:   2016-10-22 00:02:35
-* @Last Modified by:   Ali
-* @Last Modified time: 2016-10-22 00:31:31
+* @Last Modified by:   alireza-saberi
+* @Last Modified time: 2016-10-24 22:00:45
 */
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+body {
+    background-color: #59267c;
+}
+
+h1 {
+    color:  white;
+}

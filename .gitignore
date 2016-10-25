@@ -3,3 +3,4 @@
 *.back
 node_modules
 config
+app/js/fb.js
