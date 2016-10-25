@@ -2,7 +2,7 @@
 * @Author: Ali
 * @Date:   2016-10-21 22:07:55
 * @Last Modified by:   alireza-saberi
-* @Last Modified time: 2016-10-24 08:13:58
+* @Last Modified time: 2016-10-25 11:49:34
 */
 
 module.exports = function(grunt) {
@@ -20,7 +20,7 @@ module.exports = function(grunt) {
 
         concat: {
             js: {
-                src: ['app/js/*.js', 'node_modules/jquery/dist/jquery.js','node_modules/bootstrap/dist/js/bootstrap.js','node_modules/angular/angular.js', 'node_modules/angular-route/angular-route.js'],
+                src: ['app/js/*.js', 'app/js/controllers/*.js', 'app/js/services/*.js' ,'node_modules/jquery/dist/jquery.js','node_modules/bootstrap/dist/js/bootstrap.js','node_modules/angular/angular.js', 'node_modules/angular-route/angular-route.js', 'node_modules/angular-cookies/angular-cookies.js'],
                 dest: 'dist/js/script.min.js'
             },
             css: {
