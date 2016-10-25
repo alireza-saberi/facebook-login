@@ -2,13 +2,12 @@
 * @Author: alireza-saberi
 * @Date:   2016-10-24 08:54:39
 * @Last Modified by:   alireza-saberi
-* @Last Modified time: 2016-10-25 09:06:03
+* @Last Modified time: 2016-10-25 09:48:27
 */
 
 
 myApp.controller('HomeCtrl', ["$scope", "authFact", "$location", function($scope, authFact, $location){
 
-    $scope.name = "Login please";
     $scope.FBLogin = function(){
         FB.getLoginStatus(function(response) {
         // The response object is returned with a status field that lets the
