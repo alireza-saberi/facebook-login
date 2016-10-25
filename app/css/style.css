@@ -2,7 +2,7 @@
 * @Author: Ali
 * @Date:   2016-10-22 00:02:35
 * @Last Modified by:   alireza-saberi
-* @Last Modified time: 2016-10-25 10:17:43
+* @Last Modified time: 2016-10-25 11:20:48
 */
 
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
@@ -31,4 +31,8 @@ h2 {
     font-weight: 500;
     outline: 0;
     color: #fff;
+}
+
+.img-rounded {
+    max-height: 50px;
 }
