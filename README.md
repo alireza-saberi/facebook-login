@@ -10,3 +10,7 @@ Using facebook API and AngularJS technology, I log into my music app
 - [Express](http://expressjs.com/)
 - [Grunt](http://gruntjs.com/) for automation
 - [JSDOC](http://usejsdoc.org/) for documentation.
+
+## License
+
+The contents of this repository are covered under the [MIT License](LICENSE.txt).
